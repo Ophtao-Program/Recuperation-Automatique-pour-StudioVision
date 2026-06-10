@@ -1,0 +1,10 @@
+# Dépendances Python — Récupération Automatique pour StudioVision
+# Windows uniquement (automatisation COM via pywin32).
+# Installation : pip install -r requirements.txt
+
+watchdog        # Surveillance du dossier d'acquisition (PollingObserver)
+pywin32         # Automatisation COM d'Access (win32com, pythoncom, win32api, win32event)
+pystray         # Icône dans la barre des tâches
+Pillow          # Génération de l'image de l'icône
+psutil          # Suivi des processus msaccess.exe
+pyserial        # Lecture du port série du réfractomètre (pont_refractometre.py uniquement)
